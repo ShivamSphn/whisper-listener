@@ -1,0 +1,21 @@
+# Core dependencies
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.37.0
+numpy>=1.24.0
+pyannote.audio>=3.1.1
+
+# API dependencies
+fastapi>=0.109.0
+python-multipart>=0.0.6  # For file uploads
+uvicorn>=0.27.0
+pydantic>=2.0.0
+requests>=2.31.0
+
+# Audio processing
+ffmpeg-python>=0.2.0
+soundfile>=0.12.1
+librosa>=0.10.1
+
+# Optional acceleration
+flash-attn>=2.0.0  # Optional: For Flash Attention 2 support
